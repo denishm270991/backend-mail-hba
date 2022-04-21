@@ -22,7 +22,7 @@ router.get('/', async (req, res) => {
         from: '"New Call request" <enielgarciadelatorre@gmail.com>', 
         to: "enielgarciadelatorre@gmail.com", 
         // to: "denishm270991@gmail.com",
-        subject: mySubject, // Subject line
+        subject: mySubject,
         html: ` 
         <p><strong style="margin-right: 5px"><u>PERSONAL DATA</u></strong></p>
         <p><strong style="margin-right: 5px">Full Name:</strong>${data.fullName}</p>
